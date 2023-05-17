@@ -1,7 +1,12 @@
 body{
     background-color: aliceblue;
     color: pink;
-    
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    font-weight: bold;
+
 }
 p{
     width: 300px;
@@ -12,7 +17,7 @@ p{
     border-radius: 5px;
     
 }
-.kep{
+#kep{
     border-radius: 10px;
 
 }
