@@ -2,3 +2,8 @@ body{
     background-color: aliceblue;
     color: pink;
 }
+.button{
+    background-color: pink;
+    border-radius: 5px;
+    
+}
