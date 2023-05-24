@@ -12,12 +12,13 @@ p{
     width: 300px;
     height: 300px;
 }
-.button{
+#button{
     background-color: pink;
     border-radius: 5px;
     
 }
 #kep{
     border-radius: 10px;
+    width: 200px;
 
 }
