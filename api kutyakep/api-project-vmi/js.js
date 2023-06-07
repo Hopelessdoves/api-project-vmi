@@ -49,7 +49,7 @@ function gen5() {
 
 
 
-function all(kutya) {
+function fuggveny(kutya) {
     fetch("https://dog.ceo/api/breed/"+kutya+"/images/random")
     .then(adat => adat.json())
     .then(res => {
