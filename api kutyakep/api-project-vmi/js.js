@@ -1,4 +1,4 @@
-function gen() {
+function gen1() {
     fetch("https://dog.ceo/api/breed/terrier/russell/images/random")
     .then(adat => adat.json())
     .then(res => {
