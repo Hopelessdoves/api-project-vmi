@@ -48,3 +48,15 @@ function gen5() {
 }
 
 
+
+function all(kutya) {
+    fetch("https://dog.ceo/api/breed/"+kutya+"/images/random")
+    .then(adat => adat.json())
+    .then(res => {
+        document.getElementById("kep").src=res.message;
+        
+    }
+        )
+}
+
+
