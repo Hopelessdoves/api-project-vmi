@@ -7,7 +7,7 @@ function gen() {
     }
         )
 }
-function gen() {
+function gen2() {
     fetch("https://dog.ceo/api/breed/beagle/images/random")
     .then(adat => adat.json())
     .then(res => {
@@ -16,3 +16,35 @@ function gen() {
     }
         )
 }
+
+function gen3() {
+    fetch("https://dog.ceo/api/breed/beagle/images/random")
+    .then(adat => adat.json())
+    .then(res => {
+        document.getElementById("kep").src=res.message;
+        
+    }
+        )
+}
+
+function gen4() {
+    fetch("https://dog.ceo/api/breed/beagle/images/random")
+    .then(adat => adat.json())
+    .then(res => {
+        document.getElementById("kep").src=res.message;
+        
+    }
+        )
+}
+
+function gen5() {
+    fetch("https://dog.ceo/api/breed/beagle/images/random")
+    .then(adat => adat.json())
+    .then(res => {
+        document.getElementById("kep").src=res.message;
+        
+    }
+        )
+}
+
+
