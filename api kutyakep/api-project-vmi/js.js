@@ -18,7 +18,7 @@ function gen2() {
 }
 
 function gen3() {
-    fetch("https://dog.ceo/api/breed/Briard/images/random")
+    fetch("https://dog.ceo/api/breed/briard/images/random")
     .then(adat => adat.json())
     .then(res => {
         document.getElementById("kep").src=res.message;
@@ -28,7 +28,7 @@ function gen3() {
 }
 
 function gen4() {
-    fetch("https://dog.ceo/api/breed/Akita/images/random")
+    fetch("https://dog.ceo/api/breed/akita/images/random")
     .then(adat => adat.json())
     .then(res => {
         document.getElementById("kep").src=res.message;
@@ -38,7 +38,7 @@ function gen4() {
 }
 
 function gen5() {
-    fetch("https://dog.ceo/api/breed/Dalmatian/images/random")
+    fetch("https://dog.ceo/api/breed/dalmatian/images/random")
     .then(adat => adat.json())
     .then(res => {
         document.getElementById("kep").src=res.message;
